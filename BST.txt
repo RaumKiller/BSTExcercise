@@ -1,0 +1,17 @@
+Exercise BST, Binary Search Tree
+
+Modify the program studied in class, based on the web page https://www.geeksforgeeks.org/binary-search-tree-data-structure/, located in the bst.py file in the following GitHub repository https://github.com/PabloAtPoli/vs_code_python_programs.git to make the following:
+
+1.	The program must allow the insertion of repeated values, using a counter in each node that counts the number of repeated values.
+2.	Modify the traversal methods inorder(root), preorder(root), postorder(root), and print_level_order(root), so that it prints all the nodes in the BST, each repeated node must be printed as many times as appears in the BST.
+3.	Modify the delete_node(root) method, so that it deletes the key from the BST, passed as an argument, using the node inorder predecessor (greatest in the left subtree) to replace the deleted node in the tree.
+4.	 Modify the methods print_given_level(root, level), print_leaf_nodes(root), and print_non_leaf_node(root), so that each repeated node must be printed as many times as appears in the BST.
+For each method listed above, find the function T(n) that represents how many steps the method takes. Then, calculate its Big-O, Big-Omega, and Big Theta.
+The program must be in a Jupyter notebook, and you must hardcode the data to test your application, so you do not have to enter the nodes of your binary search tree from the keyboard.
+Your grade will depend on how accurate your code is and how well you answer my questions about it. Make sure you review your code and understand what each instruction does.
+
+
+Each item is worth 1.25. 
+
+
+NOTE: You must modify the program studied in class and not create your own program or use another program from the Internet.
